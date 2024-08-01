@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Young+Serif&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+body{
+  width: 1440px;
+  height: 100vh;
+  background-image:url(images/pattern-background-desktop.svg);
+  background-color: hsl(225, 100%, 94%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div.container{
+  margin: 40px 0px 0px 0px;
+  width: 400px;
+  height: 800px;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+  border-radius: 20px;
+  align-items: center;
+}
+img{
+  width: 400px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+img#music{
+width: 35px;
+height: 35px;
+margin: 10px 10px 10px 20px;
+}
+div.containerr{
+  width: 335px;
+  height: 60px;
+ display: flex;
+  background-color: hsl(225, 100%, 98%);
+  align-items: center;
+  margin: 10px 0px 20px 0px;
+  border-radius: 10px;
+}
+h1{
+  color:hsl(223, 47%, 23%);
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+}
+p{
+  color: hsl(224, 23%, 55%);
+  font-size: 16px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+div.baixo{
+  height: 50px;
+}
+
+h4 {
+  margin: 10px 130px 5px 0px;
+  color:hsl(223, 47%, 23%);
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+}
+h6{
+  color: hsl(245, 75%, 52%);
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+}
+button{
+  background-color: hsl(245, 75%, 52%);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 10px;
+  width: 335px;
+  height: 50px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+h2{
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+  color: (225, 100%, 98%);
+  margin: 30px 0px 0px 0px ;
+  font-size: 16px;
+}
+
+
+
+
+
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="container">
+  <img src="images/illustration-hero.svg" alt="mulher musica">
+<h1>Order Summary</h1>
+<p>You can now listen to millions of songs,<br> audiobooks, and podcasts on any 
+  device <br> anywhere you like!</p>
+<div class="containerr">
+  <img src="images/icon-music.svg" id="music" alt="music">
+    <div class="baixo"><h4>Annual Plan</h4>
+    <p>$59.99/year</p></div>
+  <h6><u>Change</u></h6>
+</div>
+<button>Proceed to Payment</button>
+<h2>Cancel Order</h2>
+</div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
